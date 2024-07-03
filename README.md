@@ -33,6 +33,9 @@ Example rows of HDB data ([Source: HDB](https://beta.data.gov.sg/collections/189
 | 2019-03 | ANG MO KIO | 4 ROOM | 308A | ANG MO KIO AVE 1 | 04 TO 06 | 94 | Model A | 2012 | 92 years 07 months | 591688 |
 
 Example rows of private condo data ([Source: URA](https://www.ura.gov.sg/property-market-information/pmiResidentialTransactionSearch)):
+| Project Name | Transacted Price ($) | Area (SQFT) | Unit Price ($ PSF) | Sale Date | Street Name | Type of Sale | Type of Area | Area (SQM) | Unit Price ($ PSM) | Nett Price($) | Property Type | Number of Units | Tenure | Postal District | Market Segment | Floor Level |
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| MARINA BAY SUITES | 2,980,000 | 1,603.84 | 1,858 | Mar-24 | CENTRAL BOULEVARD | Resale | Strata | 149 | 20,000 | - | Condominium | 1 | 99 yrs lease commencing from 2007 | 1 | Core Central Region | 16 to 20 |
 
 To analyse the investment potential of each housing project, I consolidated resale transaction data for each property, ensuring a comprehensive dataset for the past 5 years. Employing Linear Regression analysis in Python, I plotted a trend line that best represents the trajectory of the Unit Price per Square Foot (PSF) over time. This trend line, mathematically determined to minimise the distance from all data points, effectively captures the average annual rate of increase—or gradient—in Unit Price PSF. Thus, it offers an indication of how the property's value has appreciated each year, on average, during the specified period.\
 \
